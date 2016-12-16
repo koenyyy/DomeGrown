@@ -747,7 +747,7 @@ ul.social-buttons li a:active {
 }
 ::selection {
   text-shadow: none;
-  background: #AF473C;
+  background: #cccccc;
 }
 img::selection {
   background: transparent;
