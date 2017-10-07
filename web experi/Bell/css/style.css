@@ -1,0 +1,1172 @@
+/*
+    Theme Name: Bell
+    Theme URL: https://bootstrapmade.com/bell-free-bootstrap-4-template/
+    Author: BootstrapMade.com
+    Author URL: https://bootstrapmade.com
+*/
+/* line 21, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/_variables.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+}
+
+/* line 25, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/_variables.scss */
+p {
+  line-height: 1.55;
+  color: #333;
+  font-size: 400;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+}
+
+/* line 32, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/_variables.scss */
+h1 {
+  font-size: 62px;
+}
+
+/* line 36, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/_variables.scss */
+h2 {
+  font-size: 30px;
+  margin-bottom: 65px;
+}
+
+/* line 41, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/_variables.scss */
+h3 {
+  font-size: 24px;
+}
+
+/* line 45, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/_variables.scss */
+h4 {
+  font-size: 18px;
+}
+
+/* ==================================================
+  General
+  ================================================== */
+/* line 14, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+a {
+  transition: 0.5s;
+}
+
+/* ==================================================
+  Elements
+  ================================================== */
+/* line 22, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.btn {
+  background-color: #5B9C33;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 800;
+  color: #fff;
+  padding: 15px 45px;
+  border-radius: 50px;
+}
+
+/* line 29, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.btn:hover {
+  background-color: #74339c;
+  color: #fff;
+}
+
+/* line 33, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.btn:focus {
+  color: #fff;
+}
+
+/* line 38, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.btn-ghost {
+  border: 3px solid #fff;
+  background-color: transparent;
+}
+
+/* line 41, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.btn-ghost:hover {
+  background-color: #fff;
+  color: #5B9C33;
+}
+
+/* line 46, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+section {
+  padding: 85px 0;
+}
+
+/* line 50, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+#about .container {
+  padding: 30px;
+}
+
+/* line 54, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.card {
+  position: relative;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* line 62, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+a:hover {
+  text-decoration: none !important;
+}
+
+/* line 65, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.scrolltop {
+  display: none;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #5B9C33;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+}
+
+/* line 77, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.scrolltop:hover, .scrolltop:active, .scrolltop:focus {
+  color: #fff !important;
+  opacity: .75;
+}
+
+/* line 83, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+#usps {
+  width: 100%;
+  margin: 0;
+}
+
+/* ==================================================
+  Hero Styling
+================================================== */
+/* line 92, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.hero {
+  display: table;
+  position: relative;
+  background-image: url(../img/greenhouse%20interior.jpg);
+  background-size: cover;
+  padding: 150px 0;
+  color: #fff;
+  width: 100%;
+  height: 100vh;
+}
+
+/* line 101, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.hero:after {
+  content: '';
+  z-index: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.65);
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+/* line 111, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.hero .container {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* line 121, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.hero-brand {
+  margin-bottom: 75px;
+  display: inline-block;
+}
+
+/* line 124, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.hero-brand:hover {
+  opacity: .75;
+}
+
+/* line 127, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.hero-brand img {
+  height: 30vh;
+}
+
+/* line 132, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.tagline {
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-size: 26px;
+  margin: 45px 0 75px 0;
+  color: #fff;
+}
+
+/* ==================================================
+  Header Styling
+================================================== */
+/* line 142, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+#header {
+  background: #5B9C33;
+  height: 70px;
+}
+
+/* line 146, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+#header #logo {
+  margin: 14px 25px 0 0;
+}
+
+/* line 148, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+#header #logo h1 {
+  font-size: 36px;
+  margin: 0;
+  padding: 2px 0;
+  line-height: 1;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+/* line 159, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+#header #logo h1 a, #header #logo h1 a:hover {
+  color: #fff;
+}
+
+/* line 163, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+#header #logo img {
+  padding: 0;
+  margin: 0;
+  max-height: 40px;
+}
+
+@media (max-width: 768px) {
+  /* line 142, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+  #header {
+    height: 50px;
+  }
+  /* line 171, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+  #header #logo {
+    margin: 10px 0 0 0;
+  }
+  /* line 173, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+  #header #logo h1 {
+    padding: 2px 0;
+    font-size: 26px;
+  }
+  /* line 178, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+  #header #logo img {
+    max-height: 30px;
+  }
+}
+
+/* line 184, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+#header .social-nav {
+  margin-top: 15px;
+}
+
+/* line 186, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+#header .social-nav a {
+  font-size: 24px;
+  margin-left: 15px;
+  color: #fff;
+}
+
+/* line 190, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+#header .social-nav a:hover {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+/* Nav Menu Essentials */
+/* line 203, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.nav-menu, .nav-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 209, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.nav-menu ul {
+  position: absolute;
+  display: none;
+  top: 100%;
+  left: 0;
+  z-index: 99;
+}
+
+/* line 217, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.nav-menu li {
+  position: relative;
+  white-space: nowrap;
+}
+
+/* line 222, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.nav-menu > li {
+  float: left;
+}
+
+/* line 226, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.nav-menu li:hover > ul,
+.nav-menu li.sfHover > ul {
+  display: block;
+}
+
+/* line 231, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.nav-menu ul ul {
+  top: 0;
+  left: 100%;
+}
+
+/* line 236, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.nav-menu ul li {
+  min-width: 180px;
+}
+
+/* Nav Menu Arrows */
+/* line 243, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.sf-arrows .sf-with-ul {
+  padding-right: 30px;
+}
+
+/* line 247, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.sf-arrows .sf-with-ul:after {
+  content: "\f107";
+  position: absolute;
+  right: 15px;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* line 256, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.sf-arrows ul .sf-with-ul:after {
+  content: "\f105";
+}
+
+/* Nav Meu Container */
+/* line 262, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+#header {
+  opacity: 50%;
+}
+
+/* line 266, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+#nav-menu-container {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  /* line 266, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+  #nav-menu-container {
+    display: none;
+  }
+}
+
+/* Nav Meu Styling */
+/* line 275, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.nav-menu a {
+  padding: 22px 15px 18px 15px;
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  outline: none;
+}
+
+/* line 286, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.nav-menu a:hover, .nav-menu li:hover > a, .nav-menu .menu-active > a {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* line 290, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.nav-menu ul {
+  margin: 4px 0 0 15px;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.08);
+}
+
+/* line 294, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.nav-menu ul li {
+  background: #fff;
+  border-top: 1px solid #f4f4f4;
+}
+
+/* line 297, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.nav-menu ul li:first-child {
+  border-top: 0;
+}
+
+/* line 301, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.nav-menu ul li:hover {
+  background: #5B9C33;
+  transition: 0.3s;
+}
+
+/* line 305, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.nav-menu ul li a {
+  color: #333;
+  transition: none;
+  padding: 10px 15px;
+}
+
+/* line 309, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.nav-menu ul li a:hover {
+  color: #fff;
+}
+
+/* line 317, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.nav-menu ul ul {
+  margin: 0;
+}
+
+/* Mobile Nav Toggle */
+/* line 324, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+#mobile-nav-toggle {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 999;
+  margin: 8px 10px 0 0;
+  border: 0;
+  background: none;
+  font-size: 24px;
+  display: none;
+  transition: all 0.4s;
+  outline: none;
+  cursor: pointer;
+}
+
+/* line 338, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+#mobile-nav-toggle i {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  /* line 324, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+  #mobile-nav-toggle {
+    display: inline;
+  }
+}
+
+/* Mobile Nav Styling */
+/* line 349, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+#mobile-nav {
+  position: fixed;
+  top: 0;
+  padding-top: 18px;
+  bottom: 0;
+  z-index: 998;
+  background: rgba(0, 0, 0, 0.9);
+  left: -260px;
+  width: 260px;
+  overflow-y: auto;
+  transition: 0.4s;
+}
+
+/* line 361, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+#mobile-nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* line 366, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+#mobile-nav ul li {
+  position: relative;
+}
+
+/* line 368, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+#mobile-nav ul li a {
+  color: #fff;
+  font-size: 16px;
+  overflow: hidden;
+  padding: 10px 22px 10px 15px;
+  position: relative;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  outline: none;
+}
+
+/* line 378, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+#mobile-nav ul li a:hover {
+  color: #fff;
+}
+
+/* line 383, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+#mobile-nav ul li li {
+  padding-left: 30px;
+}
+
+/* line 388, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+#mobile-nav ul .menu-has-children i {
+  position: absolute;
+  right: 0;
+  z-index: 99;
+  padding: 15px;
+  cursor: pointer;
+  color: #fff;
+}
+
+/* line 395, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+#mobile-nav ul .menu-has-children i.fa-chevron-up {
+  color: #5B9C33;
+}
+
+/* line 400, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+#mobile-nav ul .menu-item-active {
+  color: #5B9C33;
+}
+
+/* line 406, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+#mobile-body-overly {
+  width: 100%;
+  height: 100%;
+  z-index: 997;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.6);
+  display: none;
+}
+
+/* Mobile Nav body classes */
+/* line 419, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+body.mobile-nav-active {
+  overflow: hidden;
+}
+
+/* line 422, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+body.mobile-nav-active #mobile-nav {
+  left: 0;
+}
+
+/* line 426, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+body.mobile-nav-active #mobile-nav-toggle {
+  color: #fff;
+}
+
+/* ==================================================
+  Stats Styling
+================================================== */
+/* line 436, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.stats-row {
+  margin-top: 65px;
+}
+
+/* line 440, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.stats-col .circle {
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  color: #666;
+  border: 6px solid #5B9C33;
+  border-radius: 50%;
+  padding: 55px 25px 0 25px;
+  position: relative;
+}
+
+/* line 451, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.stats-col .circle .stats-no {
+  color: #fff;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  top: -25px;
+  right: -15px;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  background-color: #74339c;
+  position: absolute;
+  border-radius: 50%;
+  font-weight: 700;
+}
+
+/* ==================================================
+  Parallax Styling
+  ================================================== */
+/* line 471, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.block {
+  color: #fff;
+  height: 490px;
+  overflow: hidden;
+  padding-top: 85px;
+}
+
+/* line 476, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.block h2 {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+/* line 480, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.block p {
+  color: #fff;
+  margin-bottom: 45px;
+}
+
+/* ==================================================
+  Features Styling
+  ================================================== */
+/* line 488, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+#feats {
+  margin: 0;
+  width: 100%;
+}
+
+/* line 493, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.features {
+  padding-bottom: 45px;
+}
+
+/* line 494, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.features h2 {
+  color: #5B9C33;
+}
+
+/* line 499, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.feature-col {
+  display: table;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 45px;
+}
+
+/* line 504, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.feature-col > div > div {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 507, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.feature-col > div > div:last-child {
+  padding-left: 20px;
+}
+
+/* line 511, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.feature-col .feature-icon {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 15px;
+  background: #5B9C33;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  line-height: 70px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* line 523, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.feature-col h3 {
+  color: #5B9C33;
+}
+
+/* line 526, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.feature-col p {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #999;
+}
+
+/* ==================================================
+  Call-to-action Styling
+  ================================================== */
+/* line 536, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.cta {
+  background-color: #5B9C33;
+  padding: 25px 0;
+}
+
+/* line 539, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.cta h2 {
+  margin-bottom: 5px;
+}
+
+/* line 542, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.cta h2,
+.cta p {
+  color: #fff;
+}
+
+/* line 546, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.cta p {
+  margin-bottom: 0;
+  opacity: .75;
+}
+
+/* line 550, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.cta .btn-ghost {
+  position: relative;
+  top: 13px;
+}
+
+/* ==================================================
+  Portfolio Styling
+  ================================================== */
+/* line 559, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.portfolio {
+  background-color: #edf6ff;
+  padding-bottom: 0;
+}
+
+/* line 562, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.portfolio h2 {
+  color: #5B9C33;
+  margin-bottom: 25px;
+}
+
+/* line 567, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.portfolio-grid {
+  margin-top: 65px;
+}
+
+/* line 569, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.portfolio-grid .row {
+  margin: 0;
+}
+
+/* line 572, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.portfolio-grid .row > div {
+  padding: 0;
+}
+
+/* line 575, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.portfolio-grid .row > div .card img {
+  width: 100%;
+}
+
+/* line 578, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.portfolio-grid .row > div .card .portfolio-over {
+  position: absolute;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* line 591, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.portfolio-grid .row > div .card .portfolio-over > div {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* line 596, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.portfolio-grid .row > div .card .portfolio-over .card-title {
+  color: #fff;
+  font-size: 30px;
+}
+
+/* line 600, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.portfolio-grid .row > div .card .portfolio-over .card-text {
+  color: #fff;
+  opacity: .75;
+  padding: 0 45px;
+}
+
+/* line 606, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.portfolio-grid .row > div .card:hover .portfolio-over {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* ==================================================
+  Team Styling
+  ================================================== */
+/* line 616, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+#team-members {
+  margin: 0;
+  width: 100%;
+}
+
+/* line 622, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.team h2 {
+  color: #5B9C33;
+}
+
+/* line 625, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.team .col-sm-3 {
+  padding: 0;
+}
+
+/* line 628, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.team img {
+  border-radius: 50%;
+  border: 3px solid #5B9C33;
+}
+
+/* line 633, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.team .card > a {
+  display: block;
+}
+
+/* line 636, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.team .card img {
+  width: 100%;
+  padding: 2px;
+}
+
+/* line 640, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.team .card h4 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* line 644, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.team .card p {
+  font-size: 11px;
+  color: #fff;
+  opacity: .75;
+  margin: 0;
+  padding: 0 35px;
+}
+
+/* line 651, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.team .card .social-nav {
+  margin-bottom: 45px;
+}
+
+/* line 653, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.team .card .social-nav a {
+  color: #fff;
+  font-size: 16px;
+  margin: 0 4px;
+}
+
+/* line 657, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.team .card .social-nav a:hover {
+  opacity: .75;
+}
+
+/* line 663, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.team .card:hover .team-over {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* line 667, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.team .card:hover .card-title-wrap {
+  background-color: #5B9C33;
+}
+
+/* line 669, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.team .card:hover .card-title-wrap .card-title, .team .card:hover .card-title-wrap .card-text {
+  color: #fff;
+}
+
+/* line 675, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.team .team-over {
+  padding-top: 45px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* line 688, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.team .card-title-wrap {
+  padding: 15px 25px;
+  position: relative;
+  z-index: 9;
+  background-color: #fff;
+}
+
+/* line 693, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.team .card-title-wrap .card-title, .team .card-title-wrap .card-text {
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  display: block;
+  margin: 0;
+}
+
+/* line 698, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.team .card-title-wrap .card-title {
+  font-size: 24px;
+  color: #333;
+}
+
+/* line 702, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.team .card-title-wrap .card-text {
+  font-size: 18px;
+  color: #999;
+}
+
+/* ==================================================
+  Contact Section
+  ================================================== */
+/* line 712, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+#contact {
+  background: #f7f7f7;
+  padding: 80px 0;
+}
+
+/* line 716, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+#contact h2 {
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  color: #5B9C33;
+}
+
+/* line 723, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+#contact .info i {
+  font-size: 32px;
+  color: #5B9C33;
+  float: left;
+}
+
+/* line 729, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+#contact .info p {
+  padding: 0 0 10px 50px;
+  line-height: 24px;
+}
+
+/* line 738, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+#contact .form #sendmessage {
+  color: #5B9C33;
+  border: 1px solid #5B9C33;
+  display: none;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+/* line 748, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+#contact .form #errormessage {
+  color: red;
+  display: none;
+  border: 1px solid red;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+/* line 758, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+#contact .form #sendmessage.show, #contact .form #errormessage.show, #contact .form .show {
+  display: block;
+}
+
+/* line 762, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+#contact .form .validation {
+  color: red;
+  display: none;
+  margin: 0 0 20px;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+/* line 770, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+#contact .form input, #contact .form textarea {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+/* line 776, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+#contact .form button[type="submit"] {
+  background: #5B9C33;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
+
+/* line 782, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+#contact .form button[type="submit"]:hover {
+  background: #72c141;
+}
+
+/* ==================================================
+  Footer Styling
+  ================================================== */
+/* line 795, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.site-footer {
+  background-color: #111;
+  padding: 0;
+}
+
+/* line 798, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.site-footer h2, .site-footer p {
+  color: #fff;
+}
+
+/* line 801, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.site-footer p {
+  opacity: .75;
+  line-height: 2.0925;
+}
+
+/* line 805, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.site-footer h2,
+.site-footer .btn {
+  margin-bottom: 25px;
+}
+
+/* line 810, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.site-footer .social-nav a {
+  color: #fff;
+  opacity: .25;
+}
+
+/* line 813, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.site-footer .social-nav a:hover {
+  opacity: 1;
+}
+
+/* line 818, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.site-footer .bottom {
+  background-color: #000;
+  padding: 20px 0;
+}
+
+/* line 821, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.site-footer .bottom .list-inline, .site-footer .bottom p {
+  margin: 0;
+}
+
+/* line 824, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.site-footer .bottom .list-inline {
+  position: relative;
+  top: 5px;
+}
+
+/* line 827, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.site-footer .bottom .list-inline a {
+  color: #fff;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  margin-right: 15px;
+}
+
+/* line 831, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.site-footer .bottom .list-inline a:hover {
+  color: #5B9C33;
+}
+
+/* line 838, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.site-footer .credits {
+  color: #ddd;
+}
+
+/* line 840, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+.site-footer .credits a {
+  color: #5B9C33;
+}
+
+/* ==================================================
+  Responsive Styling
+  ================================================== */
+@media (max-width: 61.9em) {
+  /* line 852, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+  section,
+  .block,
+  .cta {
+    padding: 35px 0;
+  }
+  /* line 857, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+  .features {
+    padding-bottom: 5px;
+  }
+  /* line 860, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+  p,
+  .block p {
+    margin: 0;
+  }
+  /* line 864, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+  .hero-brand {
+    margin-bottom: 35px;
+  }
+  /* line 867, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+  .tagline {
+    margin: 35px 0;
+  }
+  /* line 870, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+  h1 {
+    font-size: 32px;
+    margin: 0;
+  }
+  /* line 874, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+  h2,
+  .tagline {
+    font-size: 24px;
+  }
+  /* line 878, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+  h2 {
+    margin-bottom: 25px;
+  }
+  /* line 881, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+  h3 {
+    font-size: 14px;
+  }
+  /* line 884, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+  .hero {
+    padding: 75px 0;
+  }
+  /* line 887, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+  .stats-col {
+    margin-bottom: 25px;
+  }
+  /* line 890, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+  .block {
+    height: auto;
+  }
+  /* line 893, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+  .feature-col {
+    padding-bottom: 30px;
+  }
+  /* line 898, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+  .portfolio-grid .card h3.card-title {
+    font-size: 18px !important;
+  }
+  /* line 901, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+  .portfolio-grid .card .card-text {
+    font-size: 13px;
+  }
+  /* line 906, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+  .team .team-over {
+    padding-top: 20px;
+  }
+  /* line 909, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+  .team .card .social-nav {
+    margin-bottom: 15px;
+    padding: 0;
+  }
+  /* line 914, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+  .site-footer .social-nav {
+    margin-bottom: 35px;
+  }
+  /* line 917, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+  .site-footer .list-inline {
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  /* line 920, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+  .site-footer .list-inline li {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 927, C:/.Koen de Raad/DomeGrown/web experi/Bell/scss/style.scss */
+  .block {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+/*# sourceMappingURL=../css/style.map */
